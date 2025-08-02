@@ -3,7 +3,7 @@
 Скрипт на Python для удаления нежелательных подписчиков из вашего Telegram-канала по дате их присоединения. Эффективно борется с последствиями бот-атак, работая в обход ограничений Telegram API.
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg?style=for-the-badge&logo=python)
-![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)
+![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=for-the-badge)
 
 ---
 
