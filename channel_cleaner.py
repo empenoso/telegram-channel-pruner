@@ -1,14 +1,28 @@
-# Удаляем незваных подписчиков из своего телеграм канала
+# -*- coding: utf-8 -*-
+"""
+A utility to prune subscribers from a Telegram channel based on their join date.
 
-# Для запуска (под Windows):
-# 1. Получение информации о канале:
-#    python channel_cleaner.py info
-# 2. Сохранение "белого списка" (если нужно, но для каналов неполный):
-#    python channel_cleaner.py save
-# 3. ГЛАВНАЯ КОМАНДА: Удаление подписчиков, присоединившихся после указанной даты.
-#    Время последнего "хорошего" подписчика или время начала атаки ботов.
-#    python channel_cleaner.py kickbydate --after-date "2025-08-01 10:40:00"
-#    python channel_cleaner.py kickbydate --after-date "2025-08-01 10:40:00" --yes (без подтверждения)
+This script helps channel administrators clean up after bot attacks or unwanted
+traffic influx by removing users who subscribed after a specified timestamp.
+It works iteratively to bypass the Telegram API limitation of fetching only
+the 200 most recent participants.
+
+Key commands:
+  - info: Display diagnostic information about the channel.
+  - save: Save the most recent participants to a CSV file.
+  - kickbydate: Kick members who joined after the specified date.
+
+Example usage:
+    python channel_cleaner.py info
+    python channel_cleaner.py save
+    python channel_cleaner.py kickbydate --after-date "2025-08-01 10:40:00"
+"""
+
+__author__ = "Mikhail Shardin (https://shardin.name/)"
+__version__ = "1.0.0"
+__source__ = "https://github.com/empenoso/telegram-channel-pruner/"
+__license__ = "Apache-2.0"
+
 
 import os
 import csv
