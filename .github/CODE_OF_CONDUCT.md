@@ -4,7 +4,7 @@
 
 🔗 Смартлаб: https://smart-lab.ru/mobile/topic/1188250/
 
-🔗 Пикабу: https://pikabu.ru/@empenoso
+🔗 Пикабу: https://pikabu.ru/story/_13039124
 
 
 ---
