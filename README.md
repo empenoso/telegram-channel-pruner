@@ -129,7 +129,7 @@ python channel_cleaner.py kickbydate --after-date "2025-08-01 10:40:00"
 
 🔗 Смартлаб: https://smart-lab.ru/mobile/topic/1188250/
 
-🔗 Пикабу: https://pikabu.ru/@empenoso
+🔗 Пикабу: https://pikabu.ru/story/_13039124
 
 
 ---
