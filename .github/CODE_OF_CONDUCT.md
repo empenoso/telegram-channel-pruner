@@ -2,7 +2,7 @@
 
 🔗 Хабр: https://habr.com/p/933128/
 
-🔗 Смартлаб: https://smart-lab.ru/my/empenoso/
+🔗 Смартлаб: https://smart-lab.ru/mobile/topic/1188250/
 
 🔗 Пикабу: https://pikabu.ru/@empenoso
 
